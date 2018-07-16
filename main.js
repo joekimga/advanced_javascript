@@ -2,15 +2,16 @@ var word = require('./words.js');
 var prompt = require('prompt');
 
 console.log("Let's play Hangman!");
-console.log("Pick a fruit!");
+console.log("Choose a Letter");
 prompt.start();
 
 game = {
-	wordList: ['apple', 'banana', 'cherry', 'guava', 'honeydew', 'pineapple', 'watermelon'],
+	wordList: ['pot belly pig', 'french fries', 'Sour Cream', 'nacho cheese', 'veggie burger', 'pizza pie', 'Yo Mamma'],
 	wordsCorrect: 0,
-	guessesLeft: 5,
+	guessesLeft: 7,
 	currentWrd: null,
 
+var chosenWord = "";
 	startGame: function (wrd) {
 
 	},
